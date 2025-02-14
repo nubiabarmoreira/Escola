@@ -16,4 +16,21 @@ public class AlunoModel {
     private int age;
 
     public AlunoModel() {}
+
+    public AlunoModel(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getAge() {
+        return age;
+    }
 }
